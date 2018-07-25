@@ -1,0 +1,39 @@
+{
+  "name": "cost-guides",
+  "version": "1.0.0",
+  "description": "Rated people cost guides",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:debug": "node --inspect-brk --no-lazy node_modules/gatsby/dist/bin/gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rated People",
+  "contributors": [
+    "Ross Mathews <ross.matthews@ratedpeople.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-postcss": "^1.0.0",
+    "gatsby-plugin-postcss-sass": "^1.0.22",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sass": "^1.0.26",
+    "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.6",
+    "postcss-modules": "^1.3.0",
+    "rp-react-components": "git+https://fe-apps:ratedpeople1@bitbucket.ratedpeople.com/scm/fet/rp-react-components.git#feature_CG-2-allow-support-for-gatsby"
+  }
+}

@@ -1,0 +1,11 @@
+Examine build folder for more todos
+Add correct normalize.css .scss package so it works in both react components and cost guides
+Look into component css class name concatenation breaking html minification
+Correct css module class name as its currently crazy
+Check is postcss autoprefixing working?
+Do we need to add babel-polyfill?
+Tidy up gatsby-node.js
+Convert local component .scss files to have a .module extension after discussing with team.
+Add default template
+Add markdown page generation
+Strip prop types
