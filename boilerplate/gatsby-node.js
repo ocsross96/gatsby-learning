@@ -50,6 +50,25 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
       test: /\.(sass|scss)/,
       loader: `null`,
     });
+
+    // CSS modules
+    config.loader(`cssModules`, {
+      test: /\.module\.s[ac]ss$/,
+      loader: extractTextPlugin(stage).extract(`style`, [
+        cssModulesConfig(stage),
+        `postcss`,
+        `sass`
+      ]),
+    });
+
+    config.loader(`customCssModules`, {
+      test: /node_modules\/(rp-react-components)\/src\/components\/Button\/style.module.scss/,
+      loader: extractTextPlugin(stage).extract(`style`, [
+        cssModulesConfig(stage),
+        `postcss`,
+        `sass`
+      ]),
+    });
   }
 
   // TODO: do we need program

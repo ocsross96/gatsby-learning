@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styles from "./header.module.scss";
 
 const Header = ({ siteTitle }) => (
   <div
@@ -15,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 className={styles.base} style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
