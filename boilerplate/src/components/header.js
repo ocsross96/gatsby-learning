@@ -16,11 +16,11 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 className={styles.base} style={{ margin: 0 }}>
+      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
+          className={styles.base}
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >
