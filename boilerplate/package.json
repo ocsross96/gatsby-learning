@@ -18,10 +18,10 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-postcss-sass": "^1.0.22",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "add": "^2.0.6",
     "autoprefixer": "^9.0.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -30,6 +30,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "gatsby-plugin-module-local-ident-name": "0.0.6",
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.6",
     "postcss-modules": "^1.3.0",

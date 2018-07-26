@@ -15,6 +15,13 @@ module.exports = {
           autoprefixer()
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-module-local-ident-name`,
+      options: {
+        localIdentName: "[local]-[hash:base64:5]",
+        includeSASS: true
+      }
     }
   ]
 };
